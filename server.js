@@ -22,7 +22,7 @@ var options = {
       "resourceversion": "v4",
       "app_id": APP_ID,
       "app_key": API_KEY,
-    }
+    };
   };
   
   var req = http.request(options, function (res) {
